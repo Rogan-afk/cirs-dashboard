@@ -1,0 +1,9 @@
+# Python environment
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store

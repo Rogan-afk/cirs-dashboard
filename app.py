@@ -6,7 +6,7 @@ import datetime
 
 # --- 1. PAGE CONFIGURATION ---
 st.set_page_config(
-    page_title="CIRS Navigation Portal", 
+    page_title="Navigation Portal", 
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -28,12 +28,12 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- 2 & 3. HEADER AND BRANDING ---
-st.title("CIRS | Cargo Integrity & Recovery Services")
+st.title("|Dashboard for Cargo Integrity")
 st.caption("Risk Mitigation, Anomaly Detection & Incident Investigation")
 st.markdown("---")
 
 # --- 4. SIDEBAR NAVIGATION ---
-st.sidebar.markdown("### Risk Management Suite")
+st.sidebar.markdown("### Risk Management")
 page = st.sidebar.radio(
     "Navigation",
     options=[
@@ -209,7 +209,7 @@ elif page == "Investigation Queue":
     st.download_button(
         label="Export Operational Queue (CSV)",
         data=csv_data,
-        file_name="cirs_investigation_queue.csv",
+        file_name="cr_investigation_queue.csv",
         mime="text/csv"
     )
 

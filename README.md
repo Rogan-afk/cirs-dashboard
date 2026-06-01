@@ -2,7 +2,7 @@
 
 The Cargo Integrity & Recovery Services (CIRS) dashboard is an analytical risk mitigation platform designed to identify high-exposure transit lanes and systemic carrier failures. By applying statistical process control to logistics data, the system isolates dwell time anomalies and high-value freight vulnerabilities before losses occur. This tool enables supply chain operators to transition from reactive claims management to proactive freight recovery.
 
-**Live Demo:** [https://cargo-integrity-dashboard.onrender.com](https://cargo-integrity-dashboard.onrender.com)
+**Live Demo:** [https://cirs-dashboard.onrender.com](https://cirs-dashboard.onrender.com)
 
 ## Features
 * **Anomaly Detection Engine:** Applies Z-score and IQR methodologies to flag dwell time deviations and value-based risk.

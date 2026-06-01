@@ -28,7 +28,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- 2 & 3. HEADER AND BRANDING ---
-st.title("|Dashboard for Cargo Integrity")
+st.title("Dashboard for Cargo Integrity")
 st.caption("Risk Mitigation, Anomaly Detection & Incident Investigation")
 st.markdown("---")
 
